@@ -40,3 +40,7 @@ jobs:
       - name: Install the required libraries
         run: |
           pip install tensorflow IPython matplotlib numpy Pillow
+      - name: Run the notebook
+        run: |
+          python neural_style_transfer.py
+        
