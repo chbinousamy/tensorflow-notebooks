@@ -39,7 +39,7 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Install the required libraries
         run: |
-          pip install tensorflow IPython matplotlib numpy Pillow
+          pip install tensorflow IPython matplotlib numpy Pillow tensorflow-hub
       - name: Run the notebook
         run: |
           python neural_style_transfer.py
