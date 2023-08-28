@@ -28,8 +28,8 @@ def tensor_to_image(tensor):
 #content_path = tf.keras.utils.get_file('YellowLabradorLooking_new.jpg', 'https://storage.googleapis.com/download.tensorflow.org/example_images/YellowLabradorLooking_new.jpg')
 #style_path = tf.keras.utils.get_file('kandinsky5.jpg','https://storage.googleapis.com/download.tensorflow.org/example_images/Vassily_Kandinsky%2C_1913_-_Composition_7.jpg')
 
-content_path = '/content/drive/MyDrive/Colab Notebooks/me.jpg' #tf.keras.utils.get_file('YellowLabradorLooking_new.jpg', '/content/drive/MyDrive/Colab Notebooks/Screenshot 2023-07-16 at 16.54.34.png')
-style_path = '/content/drive/MyDrive/Colab Notebooks/Wasserlilien.jpg' #tf.keras.utils.get_file('kandinsky5.jpg','/content/drive/MyDrive/Colab Notebooks/Wasserlilien.jpg')
+content_path = './images/me.jpg'
+style_path = './images/Wasserlilien.jpg'
 
 """## Visualize the input
 
